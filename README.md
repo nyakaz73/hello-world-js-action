@@ -16,7 +16,8 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 The time we greeted you.
 
 ## Example usage
-
-uses: actions/hello-world-js-action@v1.1
+```yml
+uses: nyakaz73/hello-world-js-action@v1.1
 with:
-  who-to-greet: 'Mona the Octocat'
+  who-to-greet: 'Your own name here'
+```
