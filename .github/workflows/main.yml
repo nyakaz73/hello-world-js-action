@@ -11,7 +11,7 @@ jobs:
         steps:
         - name: Hello world action step
           id: hello
-          uses: nyakaz73/hello-world-js-action@v1
+          uses: nyakaz73/hello-world-js-action@v1.1
           with:
             who-to-greet: 'Tafadzwa'
         - name: Get the output time
